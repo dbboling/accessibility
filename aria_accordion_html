@@ -1,0 +1,14 @@
+<div id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="accordion-toggle" aria-hidden="false" role="tab" tabindex="0">
+    <h3>First Tab</h3>
+    <div class="accordion-content default" role="tabpanel">
+      <p>Content in the first tab</p>
+    </div>
+  </div>
+  <div class="accordion-toggle" aria-hidden="true" role="tab" tabindex="1">
+    <h3>Second Tab</h3>
+    <div class="accordion-content" role="tabpanel">
+      <p>Content in the second tab</p>
+    </div>
+  </div>
+</div>
