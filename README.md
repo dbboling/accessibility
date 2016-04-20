@@ -1,5 +1,5 @@
 # ARIA jQuery Accordion
-This accordion is meant to satisfy all requirements put forth by ARIA and the ADA.
+An accessibile accordion to fulfill ADA requirements.
 
 When one tab opens, all others close. Also can close all tabs by selecting opened tab for accessibility purposes.
 
