@@ -1,3 +1,19 @@
 .accordion-toggle {cursor: pointer;}
+.accordion-toggle[aria-hidden="true"]:after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.accordion-toggle[aria-hidden="false"]:after {
+    content: '-';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
 .accordion-content {display: none;}
 .accordion-content.default {display: block;}
