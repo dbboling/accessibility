@@ -1,6 +1,6 @@
 $(document).ready(function($) {
     scrollToPanel = true; // Scroll opened panel to top of page
-    pageOffset = 150; // Distance from top to scroll to when panel is opened (ie. to compensate for a fixed header)
+    pageOffset = 0; // Distance from top to scroll to when panel is opened (ie. to compensate for a fixed header)
     
     $('#accordion').find('.accordion-toggle').click(function(){
 
